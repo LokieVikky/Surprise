@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue1</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue2</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!--<item name="colorControlActivated">@color/blue2</item>-->
+        <!--<item name="colorControlHighlight">@color/blue2</item>-->
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#ffffff</item>
+
+
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+
+        <item name="colorAccent">@color/blue2</item>
+        <item name="colorControlNormal">@color/blue2</item>
+        <item name="colorControlActivated">@color/blue2</item>
+    </style>
+
+        <!--<style name="Toolbar.SubTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">-->
+        <!--<item name="android:textSize">12sp</item>-->
+        <!--<item name="android:textColor">@color/blue</item>-->
+        <!--<item name="android:textAllCaps">true</item>-->
+        <!--<item name="android:layout_gravity">center</item>-->
+    <!--</style>-->
+
+    <!--<style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">-->
+        <!--<item name="android:textSize">18sp</item>-->
+        <!--<item name="android:textColor">@color/blue</item>-->
+    <!--</style>-->
+</resources>
